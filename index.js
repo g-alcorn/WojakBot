@@ -1,23 +1,26 @@
-
-
-
-
-const { Client, Intents } = require('discord.js');
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v9');
 const dotenv = require('dotenv');
-
 dotenv.config();
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}`);
-});
+const commands = [{
+  name: 'wojak',
+  description: 'Replies with a wojak'
+}]; 
 
-client.on('Client#MessageCreate', (msg) => {
-  console.log('message received');
+const rest = new REST({ version: '9' }).setToken(process.env.TOKEN);
 
-  msg.send('Hello World')
-    .then(() => {console.log('message sent')})
-    .catch((e) => {console.log(e)})
-});
+(async () => {
+  try {
+    console.log('Started refreshing application (/) commands.');
 
-client.login(process.env.TOKEN);
+    await rest.put(
+      Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
+      { body: commands },
+    );
+
+    console.log('Successfully reloaded application (/) commands.');
+  } catch (error) {
+    console.error(error);
+  }
+})();
