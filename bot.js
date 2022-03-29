@@ -6,7 +6,6 @@ dotenv.config();
 //Bot and client data setup
 const BOT_COMMANDS = JSON.parse(fs.readFileSync('commands.json'));
 const BOT_PREFIX = '!wojak';
-const VALID_LIST = `Valid commands are 'wojak', 'soy', 'doomer', 'gigachad', 'chad', 'virgin'`;
 const BOT_INTENTS = new Intents([
   Intents.FLAGS.GUILDS,
   Intents.FLAGS.GUILD_MEMBERS,
@@ -28,6 +27,7 @@ client.on('interactionCreate', async interaction => {
   if (!interaction.isCommand()) 
     return;
   if (interaction.commandName === 'wojak') {
+
     await interaction.reply('yo!');
   } else {
     return;
@@ -37,12 +37,11 @@ client.on('interactionCreate', async interaction => {
 //Event listener for messages sent within server
 client.on('messageCreate', async (msg) => {
   if (!isBotMessage(msg)) {
-    console.log('human msg received');
     await validateMessage(msg)
       .then((data) => {
         console.log(`data: ${data}`)
-        console.log('valid command received')    
-        msg.reply({ content: 'valid command received'});
+        console.log('Command is valid, sending data')
+        msg.reply({ content: data});
       })
       .catch((e) => {
         console.log(`invalid command received: ${e.message}`);
@@ -64,12 +63,18 @@ const validateMessage = async (msg) => {
     //Command initiator is correct; let's check what type of wojak to send
     const options = msg.content.split(' ')
 
-    if (options.length > 2) {
+    if (options.length > 3) {
       throw new Error('Too many options selected')
-    } else if ( options[1] === 'help'){
-      return VALID_LIST;
-    } else {
+    } else if (options.length === 1) {
+      console.log('default option')
+      return validateCommand('default');
+    } else if(options.length === 2) {
+      console.log('1 option')
       return validateCommand(options[1].toLowerCase());
+    } else if ( options[1] === 'help') {
+      //return a help message
+    } else {
+      return validateCommand([options[1].toLowerCase(), options[2].toLowerCase()]);
     }
     
   } else {
@@ -78,8 +83,19 @@ const validateMessage = async (msg) => {
 }
 
 const validateCommand = async (command) => {
-  if(BOT_COMMANDS[command]) {
-    return command;
+  if(Array.isArray(command) && command.length === 2 && BOT_COMMANDS[command[0]]) {
+    console.log('response category and subcategory chosen')
+    if(BOT_COMMANDS[command[0]][command[1]]) {
+      return BOT_COMMANDS[command[0]][command[1]];
+    } else {
+      throw new Error(`Not found on the command list.`)
+    }
+  } else if(BOT_COMMANDS[command]) {
+    console.log('response category chosen')
+    return BOT_COMMANDS[command].default;
+  } else if(command === 'default') {
+    console.log('no category chosen, sending default')
+    return BOT_COMMANDS.wojak.default;
   } else
-    throw new Error(`Not found on the command list. \n${VALID_LIST}`)
+    throw new Error(`Not found on the command list.`)
 }

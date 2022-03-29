@@ -1,21 +1,66 @@
 {
-  "soy": [
-    "url1","url2"
-  ],
-  "wojak": [
-    "url1","url2"
-  ],
-  "doomer": [
-    "url1","url2"
-  ],
-  "chad": [
-    "url1","url2"
-  ],
-  "virgin": [
-    "url1","url2"
-  ],
-  "gigachad": [
-    "url1","url2"
-  ]
+  "soy": {
+    "default":"https://wojakparadise.net/wojak/78/img/",
+    "long": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-huge-vertical-open-mouth.png",
+    "teeth": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-angry-buck-teeth.jpg",
+    "smiling": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-wide-cartoon-mouth.jpg",
+    "point": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-pointing-at-you-both-hands.png"
+  },
+  "wojak": {
+    "default":"https://wojakparadise.net/wojak/61/img",
+    "shirt": "https://i.redd.it/mqnqk6clvyu61.png",
+    "unsc": "https://wojakparadise.net/wojak/5634/img/",
+    "sonic": "https://wojakparadise.net/wojak/7703/img",
+    "drive": "https://i.imgur.com/grhk0WE.jpeg",
+    "direct": "https://i.imgur.com/pZkZ6ss.jpeg",
+    "chief": "https://i.imgur.com/ONpNx9K.png",
+    "rainy": "https://i.imgur.com/iByO5dI.jpeg",
+    "3d": "https://i.imgur.com/XgVUL4O.jpeg",
+    "bed": "https://i.imgur.com/lJ27Bu2.png",
+    "surprise": "https://i.imgur.com/oW2ne96.jpeg",
+    "beard": "https://i.imgur.com/RLBZr7c.jpeg",
+    "ballon": "https://i.imgur.com/CqqNk0X.jpeg",
+    "chair":"https://i.imgur.com/ngkmlmO.jpeg",
+    "happy": "https://i.imgur.com/wpCUasC.jpeg",
+    "abstract": "https://i.imgur.com/8uIGh5L.jpeg",
+    "fibonacci": "https://i.imgur.com/xqf2BBB.png",
+    "computer": "https://i.imgur.com/hydTesb.png",
+    "engraved": "https://i.imgur.com/NzgsDw2.png",
+    "scream": "https://i.imgur.com/o9aLbWb.png",
+    "iq": "https://www.memeatlas.com/images/wojaks/wojak-IQ-normal-distribution.png"
+  },
+  "doomer": {
+    "default": "https://i.imgur.com/p8woLbs.jpeg",
+    "cigarette": "https://wojakparadise.net/wojak/59/img",
+    "girl": "https://wojakparadise.net/wojak/1722/img",
+    "black": "https://i.imgur.com/qWGIVFu.jpeg",
+    "hair": "https://i.imgur.com/XtKFmDQ.jpeg"
+  },
+  "coomer": {
+    "default": "https://wojakparadise.net/wojak/56/img",
+    "chad": "https://wojakparadise.net/wojak/120/img"
+  },
+  "chad": {
+    "default": "https://static.wikia.nocookie.net/be-like-bro/images/c/cf/Chad.jpg",
+    "map": "https://pbs.twimg.com/media/Eav8bVzX0AUmWFc.jpg",
+    "chin": "https://static.wikia.nocookie.net/virgin-vs-chad/images/5/54/OG_Lad.png",
+    "wojak": "https://i.imgur.com/xIZ7Shy.png"
+  },
+  "virgin": {
+    "default":"",
+    "other": ""
+  },
+  "yeschad": {
+    "default":"https://wojakparadise.net/wojak/118/img",
+    "nobeard": "https://wojakparadise.net/wojak/1663/img"
+  },
+  "gigachad": {
+    "default":"",
+    "other": ""
+  },
+  "shroom": {
+    "default": "https://wojakparadise.net/wojak/77/img",
+    "other": "https://wojakparadise.net/wojak/8001/img"
+  }
 }
 
