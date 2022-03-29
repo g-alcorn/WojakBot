@@ -13,7 +13,7 @@ Updated 29 March 2022
 
 ### List of categories and specific Wojaks
 
-Wojak: [
+- Wojak: [
   'default',  'shirt',     'unsc',
   'sonic',    'drive',     'direct',
   'chief',    'rainy',     '3d',
@@ -22,14 +22,22 @@ Wojak: [
   'abstract', 'fibonacci', 'computer',
   'engraved', 'scream',    'iq'
 ]
-Soy: [ 'default', 'long', 'teeth', 'smiling', 'point' ]
-Doomer: [ 'default', 'cigarette', 'girl', 'black', 'hair' ]
-Coomer: [ 'default', 'chad' ]
-Chad: [ 'default', 'map', 'chin', 'wojak' ]
-Virgin: [ 'default', 'other' ]
-Yeschad: [ 'default', 'nobeard' ]
-Gigachad: [ 'default', 'other' ]
-Shroom: [ 'default', 'other' ]
+
+- Soy: [ 'default', 'long', 'teeth', 'smiling', 'point' ]
+
+- Doomer: [ 'default', 'cigarette', 'girl', 'black', 'hair' ]
+
+- Coomer: [ 'default', 'chad' ]
+
+- Chad: [ 'default', 'map', 'chin', 'wojak' ]
+
+- Virgin: [ 'default', 'other' ]
+
+- Yeschad: [ 'default', 'nobeard' ]
+
+- Gigachad: [ 'default', 'other' ]
+
+- Shroom: [ 'default', 'other' ]
 
 ## Updates to come
 
