@@ -7,12 +7,12 @@
     "point": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-pointing-at-you-both-hands.png"
   },
   "wojak": {
-    "default":"https://wojakparadise.net/wojak/61/img",
+    "default":"https://wojakparadise.net/wojak/61/img/",
     "unsc": "https://wojakparadise.net/wojak/5634/img/",
-    "sonic": "https://wojakparadise.net/wojak/7703/img",
-    "crying": "https://wojakparadise.net/wojak/6416/img",
+    "sonic": "https://wojakparadise.net/wojak/7703/img/",
+    "crying": "https://wojakparadise.net/wojak/6416/img/",
     "direct": "https://i.imgur.com/pZkZ6ss.jpeg",
-    "withered": "https://wojakparadise.net/wojak/6868/img",
+    "withered": "https://wojakparadise.net/wojak/6868/img/",
     "chief": "https://i.imgur.com/ONpNx9K.png",
     "rainy": "https://i.imgur.com/iByO5dI.jpeg",
     "3d": "https://i.imgur.com/XgVUL4O.jpeg",
@@ -27,21 +27,21 @@
     "computer": "https://i.imgur.com/hydTesb.png",
     "engraved": "https://i.imgur.com/NzgsDw2.png",
     "scream": "https://i.imgur.com/o9aLbWb.png",
-    "yeshoney": "https://wojakparadise.net/wojak/5859/img",
+    "yeshoney": "https://wojakparadise.net/wojak/5859/img/",
     "iq": "https://www.memeatlas.com/images/wojaks/wojak-IQ-normal-distribution.png",
-    "smug": "https://wojakparadise.net/wojak/0/img",
-    "joker": "https://wojakparadise.net/wojak/1035/img"
+    "smug": "https://wojakparadise.net/wojak/0/img/",
+    "joker": "https://wojakparadise.net/wojak/1035/img/"
   },
   "doomer": {
-    "default": "https://wojakparadise.net/wojak/59/img",
-    "cigarette": "https://wojakparadise.net/wojak/59/img",
-    "girl": "https://wojakparadise.net/wojak/1722/img",
+    "default": "https://wojakparadise.net/wojak/59/img/",
+    "cigarette": "https://wojakparadise.net/wojak/59/img/",
+    "girl": "https://wojakparadise.net/wojak/1722/img/",
     "black": "https://i.imgur.com/qWGIVFu.jpeg",
     "hair": "https://i.imgur.com/XtKFmDQ.jpeg"
   },
   "coomer": {
-    "default": "https://wojakparadise.net/wojak/56/img",
-    "chad": "https://wojakparadise.net/wojak/120/img"
+    "default": "https://wojakparadise.net/wojak/56/img/",
+    "chad": "https://wojakparadise.net/wojak/120/img/"
   },
   "chad": {
     "default": "https://static.wikia.nocookie.net/be-like-bro/images/c/cf/Chad.jpg",
@@ -50,11 +50,11 @@
     "wojak": "https://i.imgur.com/xIZ7Shy.png"
   },
   "yeschad": {
-    "default":"https://wojakparadise.net/wojak/118/img",
-    "nobeard": "https://wojakparadise.net/wojak/1663/img"
+    "default":"https://wojakparadise.net/wojak/118/img/",
+    "nobeard": "https://wojakparadise.net/wojak/1663/img/"
   },
   "shroom": {
-    "default": "https://wojakparadise.net/wojak/77/img"
+    "default": "https://wojakparadise.net/wojak/77/img/"
   }
 }
 
