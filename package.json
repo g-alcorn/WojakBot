@@ -11,7 +11,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "nodemon bot.js",
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
