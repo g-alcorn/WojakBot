@@ -14,14 +14,15 @@ Updated 29 March 2022
 ### List of categories and specific Wojaks
 
 - Wojak: [
-  'default',  'shirt',     'unsc',
-  'sonic',    'drive',     'direct',
-  'chief',    'rainy',     '3d',
-  'bed',      'surprise',  'beard',
-  'ballon',   'chair',     'happy',
-  'abstract', 'fibonacci', 'computer',
-  'engraved', 'scream',    'iq'
-]
+    'default',  'joker',     'unsc',
+    'sonic',    'drive',     'direct',
+    'chief',    'rainy',     '3d',
+    'bed',      'surprise',  'beard',
+    'ballon',   'chair',     'happy',
+    'abstract', 'fibonacci', 'computer',
+    'engraved', 'scream',    'iq',
+    'crying',   'yeshoney',  'smug'
+  ]
 
 - Soy: [ 'default', 'long', 'teeth', 'smiling', 'point' ]
 
@@ -31,11 +32,7 @@ Updated 29 March 2022
 
 - Chad: [ 'default', 'map', 'chin', 'wojak' ]
 
-- Virgin: [ 'default', 'other' ]
-
 - Yeschad: [ 'default', 'nobeard' ]
-
-- Gigachad: [ 'default', 'other' ]
 
 - Shroom: [ 'default', 'other' ]
 
