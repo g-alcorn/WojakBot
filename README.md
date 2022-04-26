@@ -3,7 +3,7 @@
 WojakBot is a Discord bot who sends memes upon request. Made for personal use in small Discord servers.
 Updated 25 April 2022
 
-![Example command]('./example.png')
+![Example command](./example.png)
 
 ## Example commands
 
