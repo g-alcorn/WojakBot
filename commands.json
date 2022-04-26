@@ -8,11 +8,11 @@
   },
   "wojak": {
     "default":"https://wojakparadise.net/wojak/61/img",
-    "shirt": "https://i.redd.it/mqnqk6clvyu61.png",
     "unsc": "https://wojakparadise.net/wojak/5634/img/",
     "sonic": "https://wojakparadise.net/wojak/7703/img",
-    "drive": "https://i.imgur.com/grhk0WE.jpeg",
+    "crying": "https://wojakparadise.net/wojak/6416/img",
     "direct": "https://i.imgur.com/pZkZ6ss.jpeg",
+    "withered": "https://wojakparadise.net/wojak/6868/img",
     "chief": "https://i.imgur.com/ONpNx9K.png",
     "rainy": "https://i.imgur.com/iByO5dI.jpeg",
     "3d": "https://i.imgur.com/XgVUL4O.jpeg",
@@ -27,10 +27,13 @@
     "computer": "https://i.imgur.com/hydTesb.png",
     "engraved": "https://i.imgur.com/NzgsDw2.png",
     "scream": "https://i.imgur.com/o9aLbWb.png",
-    "iq": "https://www.memeatlas.com/images/wojaks/wojak-IQ-normal-distribution.png"
+    "yeshoney": "https://wojakparadise.net/wojak/5859/img",
+    "iq": "https://www.memeatlas.com/images/wojaks/wojak-IQ-normal-distribution.png",
+    "smug": "https://wojakparadise.net/wojak/0/img",
+    "joker": "https://wojakparadise.net/wojak/1035/img"
   },
   "doomer": {
-    "default": "https://i.imgur.com/p8woLbs.jpeg",
+    "default": "https://wojakparadise.net/wojak/59/img",
     "cigarette": "https://wojakparadise.net/wojak/59/img",
     "girl": "https://wojakparadise.net/wojak/1722/img",
     "black": "https://i.imgur.com/qWGIVFu.jpeg",
@@ -46,21 +49,12 @@
     "chin": "https://static.wikia.nocookie.net/virgin-vs-chad/images/5/54/OG_Lad.png",
     "wojak": "https://i.imgur.com/xIZ7Shy.png"
   },
-  "virgin": {
-    "default":"",
-    "other": ""
-  },
   "yeschad": {
     "default":"https://wojakparadise.net/wojak/118/img",
     "nobeard": "https://wojakparadise.net/wojak/1663/img"
   },
-  "gigachad": {
-    "default":"",
-    "other": ""
-  },
   "shroom": {
-    "default": "https://wojakparadise.net/wojak/77/img",
-    "other": "https://wojakparadise.net/wojak/8001/img"
+    "default": "https://wojakparadise.net/wojak/77/img"
   }
 }
 

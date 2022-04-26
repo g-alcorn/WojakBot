@@ -5,6 +5,7 @@ dotenv.config();
 
 //Bot and client data setup
 const BOT_COMMANDS = JSON.parse(fs.readFileSync('commands.json'));
+const BOT_HELP = fs.readFileSync('help.txt').toString();
 const BOT_PREFIX = '!wojak';
 const BOT_INTENTS = new Intents([
   Intents.FLAGS.GUILDS,
@@ -28,7 +29,7 @@ client.on('interactionCreate', async interaction => {
     return;
   if (interaction.commandName === 'wojak') {
 
-    await interaction.reply('yo!');
+    await interaction.reply(BOT_COMMANDS.wojak.default);
   } else {
     return;
   }  
@@ -39,9 +40,15 @@ client.on('messageCreate', async (msg) => {
   if (!isBotMessage(msg)) {
     await validateMessage(msg)
       .then((data) => {
-        console.log(`data: ${data}`)
-        console.log('Command is valid, sending data')
-        msg.reply({ content: data});
+        console.log(`'${data}' is a valid command, sending data`);
+
+        //Manage help requests
+        if(data === 'help') {
+          msg.author.send(BOT_HELP);
+        } else {
+          //Serve the meme
+          msg.reply({ content: data});
+        }
       })
       .catch((e) => {
         console.log(`invalid command received: ${e.message}`);
@@ -62,21 +69,22 @@ const validateMessage = async (msg) => {
   if (msg.content.startsWith(BOT_PREFIX)) {
     //Command initiator is correct; let's check what type of wojak to send
     const options = msg.content.split(' ')
-
+    
     if (options.length > 3) {
       throw new Error('Too many options selected')
     } else if (options.length === 1) {
       console.log('default option')
       return validateCommand('default');
-    } else if(options.length === 2) {
+    } else if(options.length === 2 && options[1] !== 'help') {
       console.log('1 option')
       return validateCommand(options[1].toLowerCase());
-    } else if ( options[1] === 'help') {
-      //return a help message
-    } else {
+    } else if (options.length === 2 && options[1] === 'help') {
+      return options[1];
+    } else if (options.length === 3) {
       return validateCommand([options[1].toLowerCase(), options[2].toLowerCase()]);
+    } else if (options.length > 3) {
+      throw new Error('Too many options!');
     }
-    
   } else {
     throw new Error('Message did not start with !wojak');
   }
