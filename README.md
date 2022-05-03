@@ -30,8 +30,6 @@ Updated 25 April 2022
 
 - Doomer: [ 'default', 'cigarette', 'girl', 'black', 'hair' ]
 
-- Coomer: [ 'default', 'chad' ]
-
 - Chad: [ 'default', 'map', 'chin', 'wojak' ]
 
 - Yeschad: [ 'default', 'nobeard' ]
