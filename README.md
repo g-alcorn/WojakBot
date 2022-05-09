@@ -20,7 +20,7 @@ Updated 25 April 2022
     'sonic',    'drive',     'direct',
     'chief',    'rainy',     '3d',
     'bed',      'surprise',  'beard',
-    'ballon',   'chair',     'happy',
+    'balloon',   'chair',     'happy',
     'abstract', 'fibonacci', 'computer',
     'engraved', 'scream',    'iq',
     'crying',   'yeshoney',  'smug'

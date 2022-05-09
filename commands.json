@@ -4,7 +4,9 @@
     "long": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-huge-vertical-open-mouth.png",
     "teeth": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-angry-buck-teeth.jpg",
     "smiling": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-wide-cartoon-mouth.jpg",
-    "point": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-pointing-at-you-both-hands.png"
+    "point": "https://www.memeatlas.com/images/wojaks/wojak-soy-boy-pointing-at-you-both-hands.png",
+    "pokemon": "https://cdn.discordapp.com/attachments/808852834468102144/970482967191380039/image0.jpg"
+  
   },
   "wojak": {
     "default":"https://wojakparadise.net/wojak/61/img/",
@@ -19,7 +21,7 @@
     "bed": "https://i.imgur.com/lJ27Bu2.png",
     "surprise": "https://i.imgur.com/oW2ne96.jpeg",
     "beard": "https://i.imgur.com/RLBZr7c.jpeg",
-    "ballon": "https://i.imgur.com/CqqNk0X.jpeg",
+    "balloon": "https://i.imgur.com/CqqNk0X.jpeg",
     "chair":"https://i.imgur.com/ngkmlmO.jpeg",
     "happy": "https://i.imgur.com/wpCUasC.jpeg",
     "abstract": "https://i.imgur.com/8uIGh5L.jpeg",

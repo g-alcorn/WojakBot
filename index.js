@@ -2,7 +2,10 @@ const { Client, Intents, ChannelManager } = require('discord.js');
 const fs = require('fs');
 const dotenv = require('dotenv');
 dotenv.config();
-const port = process.env.PORT;
+
+//Port Management
+const port = process.env.PORT || 3333;
+console.log(port);
 
 //Bot and client data setup
 const BOT_COMMANDS = JSON.parse(fs.readFileSync('commands.json'));
@@ -22,6 +25,9 @@ client.login(process.env.TOKEN);
 //Confirm login on console
 client.on('ready', async () => {
   console.log(`Logged in as ${client.user.tag} at ${Date()}`);
+  if(BOT_HELP){
+    console.log('help loaded')
+  }
 });
 
 //Respond to slash command
