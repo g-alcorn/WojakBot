@@ -2,6 +2,7 @@ const { Client, Intents, ChannelManager } = require('discord.js');
 const fs = require('fs');
 const dotenv = require('dotenv');
 dotenv.config();
+const port = process.env.PORT;
 
 //Bot and client data setup
 const BOT_COMMANDS = JSON.parse(fs.readFileSync('commands.json'));
