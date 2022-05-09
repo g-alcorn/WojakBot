@@ -14,7 +14,9 @@ List of available commands
     'engraved', 'scream',    'iq',
     'crying',   'yeshoney',  'smug' ]
   
-  - Soy: [ 'default', 'long', 'teeth', 'smiling', 'point' ]
+  - Soy: [ 
+    'default', 'long', 'teeth', 
+    'smiling', 'point', 'pokemon' ]
   
   - Doomer: [ 'default', 'cigarette', 'girl', 'black', 'hair' ]
   
